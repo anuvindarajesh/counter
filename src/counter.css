@@ -1,0 +1,28 @@
+h1 {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+    height: 50px;
+    width: 60px;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    transition: background-color ease 0.3, font-color ease 0.3;
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
